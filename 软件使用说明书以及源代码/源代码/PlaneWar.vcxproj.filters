@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MainControl">
+      <UniqueIdentifier>{0b8ca974-4f11-4415-8737-74bccc23eabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{799d5390-9df6-49d2-b5c7-e476747494c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainControl\source">
+      <UniqueIdentifier>{f33d2b46-7b9a-4845-98ef-d465f362e9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainControl\header">
+      <UniqueIdentifier>{81f0b008-7e06-4455-b805-af4da0637c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\header">
+      <UniqueIdentifier>{9effd19e-c2bf-4345-a09a-18af90fc11b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\source">
+      <UniqueIdentifier>{c1ce9370-6898-4b10-8bdb-c3c8dc5b0172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modes">
+      <UniqueIdentifier>{c2e20507-fa2f-4a67-a1c5-c27c75a16fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modes\header">
+      <UniqueIdentifier>{91d10eb8-9d04-46f9-98d0-f56f835f0e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modes\source">
+      <UniqueIdentifier>{d82703e1-3625-42b4-b863-0a5ce516e990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{54c4a7b5-4a22-4080-b5d0-a8e70b5366dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\header">
+      <UniqueIdentifier>{0b2ffd47-2605-4125-b84e-ed3c03db0600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\source">
+      <UniqueIdentifier>{9f57f3e6-2009-4d50-9ba4-24955adfa3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buff">
+      <UniqueIdentifier>{dbf75683-3646-444e-8ce2-e9b8da67cb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buff\header">
+      <UniqueIdentifier>{92403575-46c6-421a-a2bf-a5af573273cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buff\source">
+      <UniqueIdentifier>{7061fd2a-3bee-49ff-bbb4-af3fdd3a5f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullets">
+      <UniqueIdentifier>{c13f8a3e-3ca1-4c80-ad64-09f67cd8a153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullets\header">
+      <UniqueIdentifier>{0dfe8b4a-5df8-4c27-ac19-64867b6d75b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullets\source">
+      <UniqueIdentifier>{1f100138-2c03-4aa1-9227-461155d44962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{4d5b422f-4bba-4649-8e9c-014b323d786f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\header">
+      <UniqueIdentifier>{764fea80-a26c-47bc-be82-41c33abb5ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\source">
+      <UniqueIdentifier>{f87cbf63-2e97-4835-a789-cee9c5b0fb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileProcessing">
+      <UniqueIdentifier>{f99eb8f8-753d-496d-8d87-108be5357387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileProcessing\header">
+      <UniqueIdentifier>{244d5137-5f94-4356-96b0-35c50c0dc9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileProcessing\source">
+      <UniqueIdentifier>{6fce7727-6502-4ae6-a8b0-5b6ca88b609f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainControl.cpp">
+      <Filter>MainControl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSet.cpp">
+      <Filter>Modes\source</Filter>
+    </ClCompile>
+    <ClCompile Include="InfiniteGame.cpp">
+      <Filter>Modes\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Rec.cpp">
+      <Filter>Tool\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Tool\source</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowSetter.cpp">
+      <Filter>Tool\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Boom.cpp">
+      <Filter>Object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConfig.cpp">
+      <Filter>Tool\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBuff.cpp">
+      <Filter>Buff\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBullet.cpp">
+      <Filter>Bullets\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBulletA.cpp">
+      <Filter>Bullets\source</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneBulletA.cpp">
+      <Filter>Bullets\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEnemy.cpp">
+      <Filter>Enemy\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBulletB.cpp">
+      <Filter>Bullets\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBulletC.cpp">
+      <Filter>Bullets\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBulletD.cpp">
+      <Filter>Bullets\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEnemy.cpp">
+      <Filter>Enemy\source</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxEnemy.cpp">
+      <Filter>Enemy\source</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniEnemy.cpp">
+      <Filter>Enemy\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffAntidote.cpp">
+      <Filter>Buff\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffAward.cpp">
+      <Filter>Buff\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffBoming.cpp">
+      <Filter>Buff\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffInvisible.cpp">
+      <Filter>Buff\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffShield.cpp">
+      <Filter>Buff\source</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreFileRecord.cpp">
+      <Filter>FileProcessing\source</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryScoreRecord.cpp">
+      <Filter>Modes\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainControl.h">
+      <Filter>MainControl\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Object\header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSet.h">
+      <Filter>Modes\header</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteGame.h">
+      <Filter>Modes\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Rec.h">
+      <Filter>Tool\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Tool\header</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSetter.h">
+      <Filter>Tool\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Boom.h">
+      <Filter>Object\header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig.h">
+      <Filter>Tool\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBuff.h">
+      <Filter>Buff\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBullet.h">
+      <Filter>Bullets\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBulletA.h">
+      <Filter>Bullets\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneBulletA.h">
+      <Filter>Bullets\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEnemy.h">
+      <Filter>Enemy\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBulletB.h">
+      <Filter>Bullets\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBulletC.h">
+      <Filter>Bullets\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBulletD.h">
+      <Filter>Bullets\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEnemy.h">
+      <Filter>Enemy\header</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxEnemy.h">
+      <Filter>Enemy\header</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniEnemy.h">
+      <Filter>Enemy\header</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffAntidote.h">
+      <Filter>Buff\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffAward.h">
+      <Filter>Buff\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffBoming.h">
+      <Filter>Buff\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffInvisible.h">
+      <Filter>Buff\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffShield.h">
+      <Filter>Buff\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreFileRecord.h">
+      <Filter>FileProcessing\header</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryScoreRecord.h">
+      <Filter>Modes\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
